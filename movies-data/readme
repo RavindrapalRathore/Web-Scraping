@@ -1,1 +1,14 @@
+This Python script utilizes Scrapy, a powerful web crawling and web scraping framework, to scrape movie information from moviesmod.info. It systematically navigates through multiple pages of the website, collecting movie details such as title, year, genre, rating, storyline, and more.
+Total Movies Scraped: 14454
 
+Features:
+
+Pagination Handling: Automatically traverses through multiple pages to ensure comprehensive data collection.
+Detailed Scraping: Extracts a wide range of movie details including title, poster URL, release year, genre, rating, and storyline.
+Customizable: Easily configurable to scrape a specific number of pages or adapt to website changes.
+Instructions for Use:
+
+Install Python and Scrapy.
+Clone this repository.
+Run the script to initiate the scraping process.
+Extracted data will be saved in CSV format for further analysis or usage.
