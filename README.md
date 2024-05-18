@@ -1,2 +1,2 @@
 # Web-Scraping
-Previously, our data scraping process was limited to a single listing page, but now we are tasked with the extraction and scraping of comprehensive product details, including but not limited to product names, URLs, prices, original prices, discounts, delivery information, product types, and stock status, from multiple listing pages.
+In this repository, we utilize various web scraping tools and frameworks such as Scrapy, BeautifulSoup, Selenium, and others in Python. We scrape data from diverse websites and compile datasets, extracting information from a wide range of sources..
