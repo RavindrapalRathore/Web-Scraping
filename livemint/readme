@@ -1,0 +1,21 @@
+Scrapy Livemint News Scraper
+
+This Python script employs Scrapy to scrape articles from [Livemint](https://www.livemint.com/) website, providing a convenient means to extract relevant news data. It navigates through pages, retrieves article titles, authors, publication dates, URLs, and content, ensuring comprehensive coverage of the site's content.
+
+Features:
+- **Flexible URL Configuration**: Reads URLs dynamically from a JSON file, providing versatility in selecting the target pages.
+- **Pagination Handling**: Automatically follows pagination links to capture articles across multiple pages.
+- **Data Cleaning**: Utilizes regex and text processing methods to clean extracted content for improved readability and usability.
+- **Customizable**: Easily adaptable to adjust the number of pages to scrape or incorporate additional data fields.
+
+Workflow:
+1. **Category Scraping**: The 'scrape.py' script scrapes all categories and generates an output listing pages in 'menu.json'.
+2. **News Scraping**: This script scrapes articles from Livemint based on the URLs provided in 'menu.json'.
+
+Instructions for Use:
+1. Install Python and Scrapy.
+2. Clone this repository and navigate to the project directory.
+3. Run the 'scrape.py' script to gather category listings and generate 'menu.json'.
+4. Ensure the 'menu.json' file contains the desired URLs for news scraping.
+5. Run the main script to initiate the scraping process.
+6. Extracted data will be saved in JSON format for further analysis or usage.
