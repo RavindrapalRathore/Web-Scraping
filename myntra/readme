@@ -1,0 +1,26 @@
+
+Myntra Product Scraper
+
+This repository contains a Python script that scrapes product information from Myntra, an online fashion and lifestyle store. The script utilizes Selenium and BeautifulSoup to gather detailed data about products, including their prices, ratings, descriptions, images, and more.
+
+Features:
+- **Dynamic Scrolling**: The script scrolls through product pages to load all available items.
+- **Comprehensive Data Extraction**: Captures product details such as brand, title, price, ratings, descriptions, images, and seller information.
+- **Pagination Handling**: Navigates through multiple pages to ensure complete data collection.
+- **Data Cleaning**: Processes and cleans extracted data for improved usability.
+
+Workflow:
+1. **Initial Setup**: Set the base URL and the number of pages to scrape.
+2. **Page Navigation**: Use Selenium to navigate through each page and load all product listings.
+3. **Product Data Scraping**: Extract detailed information for each product using BeautifulSoup.
+4. **Save to CSV**: Store the collected data in a CSV file for further analysis or usage.
+
+Note: This script scrapes only one category, "Shorts", and collects the first 500 products. It serves as a sample scraping of Myntra.
+
+Instructions for Use:
+1. Install Python and the required libraries (Selenium, BeautifulSoup4).
+2. Clone this repository and navigate to the project directory.
+3. Ensure you have the Chrome WebDriver installed and accessible in your system PATH.
+4. Run the script to start scraping product data.
+5. The extracted data will be saved in a CSV file named 'myntra_products.csv'.
+
